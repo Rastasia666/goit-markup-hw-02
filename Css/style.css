@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: 212121;
 }
-header {  background-color:#FFFFFF;
+.header-background {  background-color:#FFFFFF;
 
  
    }
@@ -12,9 +12,10 @@ header {  background-color:#FFFFFF;
     width: 1600px;
     height: 600px;
     text-align: center;
+    12
    }
 
-a {
+.a {
   text-decoration: none;
   color: inherit;
 }
@@ -22,8 +23,15 @@ a:focus,
 a:hover {color:
   #2196F3;}
 
-button {
+.button {
   cursor: pointer;
+}
+.button-look{
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
 }
 footer{
   background-color: #2F303A;width: 1600px;
@@ -32,8 +40,34 @@ footer{
 
 }
 
-.photo-team {color:#FFFFFF;}
+.photo-team {color:#FFFFFF;
+  width: 270px;
+  height: 260px;}
+.photo-work{width: 370px;
+  height: 294px;}
+  .photo-portfolio { width: 370px;
+    height: 294px;}
 .logo-studio {color:#2196F3;}
+.title {position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;}
+  
+
 :root {
   --background-color: #e5e5e5;
   --background-header-color:#FFFFFF;
