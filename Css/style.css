@@ -15,10 +15,6 @@ body {
   color: var(--color-primary);
 }
 
-address {
-  font-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -56,7 +52,6 @@ ul {
 
 .button-look {
   cursor: pointer;
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -72,8 +67,8 @@ ul {
 }
 
 .button-look {
-  :#FFFFFF ;
   position: absolute;
+  color: #ffffff;
   width: 117px;
   height: 30px;
   left: 742px;
@@ -137,11 +132,7 @@ ul {
 }
 
 .our-team-background {
-  position: absolute;
   width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
   background: #f5f4fa;
 }
 
